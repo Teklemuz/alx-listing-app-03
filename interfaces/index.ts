@@ -1,4 +1,4 @@
-export interface Address {
+export interface Address { 
   state: string;
   city: string;
   country: string;
@@ -19,4 +19,13 @@ export interface PropertyProps {
   offers: Offers;
   image: string;
   discount: string;
+  description?: string
+  reviews?: ReviewProps[];
+}
+
+export interface ReviewProps {
+  avatar: string;
+  name: string;
+  rating: number;
+  comment: string;
 }

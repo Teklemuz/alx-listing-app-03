@@ -8,5 +8,6 @@ export const PROPERTYLISTINGSAMPLE = [
     offers: { bed: "3", shower: "3", occupants: "4-6" },
     image: "https://example.com/image1.jpg",
     discount: "",
+    reviews: [],
   },
 ];
